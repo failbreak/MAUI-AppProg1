@@ -9,6 +9,8 @@
         <converters:IntToBoolConverter x:Key="intToBool" />
     </ContentPage.Resources>
 
+    <!--  https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding/converters?view=net-maui-7.0#binding-value-converters-1  -->
+
     <StackLayout Padding="10,0">
         <Entry
             x:Name="entry1"
@@ -20,7 +22,7 @@
             IsEnabled="{Binding Source={x:Reference entry1}, Path=Text.Length, Converter={StaticResource intToBool}}"
             Text="Search"
             VerticalOptions="Center" />
-        
+
         <Entry
             x:Name="entry2"
             Placeholder="enter destination"

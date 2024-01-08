@@ -9,7 +9,7 @@
         <converters:IntToBoolConverter x:Key="intToBool" />
     </ContentPage.Resources>
 
-    <!--  https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding/converters?view=net-maui-7.0#binding-value-converters-1  -->
+    <!--  https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding/converters?view=net-maui-8.0#binding-value-converters-1  -->
 
     <StackLayout Padding="10,0">
         <Entry
